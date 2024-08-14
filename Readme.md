@@ -18,7 +18,7 @@ This repository contains my Neovim configuration, optimized for development and 
 To get started, clone this repository to your local machine:
 
 ```sh
-git clone https://github.com/your-username/your-neovim-config.git ~/.config/nvim
+git clone https://github.com/JyrwaJR/nvim.git ~/.config/nvim
 ```
 
 ### Windows (CMD)
@@ -26,7 +26,7 @@ git clone https://github.com/your-username/your-neovim-config.git ~/.config/nvim
 To get started, clone this repository to your local machine:
 
 ```sh
-git clone https://github.com/your-username/your-neovim-config.git $HOME/AppData/Local/nvim
+git clone https://github.com/JyrwaJR/nvim.git $HOME/AppData/Local/nvim
 ```
 
 ## Requirements
