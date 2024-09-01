@@ -17,7 +17,7 @@ opt.wrap = false
 opt.ignorecase = true -- ignore case when searching
 opt.smartcase = true -- if you include mixed case in your search, assumes you want case-sensitive
 
-opt.cursorline = fasle
+opt.cursorline = false
 
 -- turn on termguicolors for tokyonight colorscheme to work
 -- (have to use iterm2 or any other true color terminal)
@@ -37,3 +37,9 @@ opt.splitbelow = true -- split horizontal window to the bottom
 
 -- turn off swapfile
 opt.swapfile = false
+
+-- Get 8 line bewlow and above the coursor
+opt.scrolloff = 10
+
+-- column line
+-- opt.colorcolumn = "80"
