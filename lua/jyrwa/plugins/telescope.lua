@@ -24,6 +24,9 @@ return {
 
     telescope.setup({
       defaults = {
+        prompt_prefix = " ",
+        selection_caret = " ",
+        path_shorten = 1,
         path_display = { "smart" },
         mappings = {
           i = {
