@@ -26,7 +26,7 @@ return {
       defaults = {
         prompt_prefix = " ",
         selection_caret = " ",
-        path_shorten = 1,
+        path_shorten = 2,
         path_display = { "smart" },
         mappings = {
           i = {
