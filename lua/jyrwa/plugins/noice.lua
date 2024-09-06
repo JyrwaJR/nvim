@@ -1,5 +1,3 @@
--- Key binding to close all notifications
-vim.api.nvim_set_keymap("n", "<leader>cn", "<cmd>NoiceDismiss<CR>", { noremap = true, silent = true })
 return {
   "folke/noice.nvim",
   event = "VeryLazy",
