@@ -38,5 +38,6 @@ opt.swapfile = false
 -- Get 8 line bewlow and above the coursor
 opt.scrolloff = 10
 
--- column line
--- opt.colorcolumn = "80"
+-- Set the shell to use Git Bash
+vim.opt.shell = "C:\\Program Files\\Git\\bin\\bash.exe" -- Use the correct path
+vim.opt.shellcmdflag = "-c" -- Use the standard flag for bash commands
