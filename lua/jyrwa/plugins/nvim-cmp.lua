@@ -66,6 +66,7 @@ return {
         }, {
           {
             name = "cmdline",
+            -- ignore_cmds = { "Man", "!" },
             option = {
               ignore_cmds = { "Man", "!" },
             },
