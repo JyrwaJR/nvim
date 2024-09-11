@@ -41,3 +41,4 @@ opt.scrolloff = 10
 -- Set the shell to use Git Bash
 vim.opt.shell = "C:\\Program Files\\Git\\bin\\bash.exe" -- Use the correct path
 vim.opt.shellcmdflag = "-c" -- Use the standard flag for bash commands
+vim.opt.conceallevel = 2
