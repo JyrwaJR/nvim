@@ -27,7 +27,9 @@ return {
         prompt_prefix = "  ",
         selection_caret = "  ",
         path_shorten = 2,
-        path_display = { "smart" },
+        path_display = {
+          "filename_first",
+        },
         mappings = {
           i = {
             ["<C-k>"] = actions.move_selection_previous, -- move to prev result
